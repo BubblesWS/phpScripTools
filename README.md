@@ -10,7 +10,7 @@ Optional parameter:
 - the source folder : by default the source is the same where the script run;
 - the destination folder : by default make a folder "resized" into the same folder where the scipt run;
 - the min and max dimension of resized image : by default if the image is more then 1000px, the resized img is the 33% (1/3), else 50%;
-- the new file name : by default it's the same name;
+- the new file name : by default it's the same name, if you spcify a new name i the "T" option, the name will be like 001-name.jpg;
 - the overwrite : by default is false, do not overwrite the file if exist in the destination folder, to change set it on true
 
 The allowed type ar PNG JPG JPEG GIF.
