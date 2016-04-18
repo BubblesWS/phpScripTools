@@ -75,7 +75,7 @@ function resize($IMG, $SRC="", $DST="", $MAXw=null, $MAXh=null, $IMGr="", $OVERW
 			}
 		}
 		elseif(!$MAXw xor !$MAXh){
-			if($!$MAXw){
+			if(!$MAXw){
 				$MAXw = $MAXh;
 			}
 			elseif(!$MAXh){
